@@ -1,0 +1,11 @@
+import re
+
+def fun(s):
+    s=str(s)
+    if re.match(r"\b0.
+    \b", s):
+        return True
+    else:
+        return False
+
+def filter_mail(emails):
